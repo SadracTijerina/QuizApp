@@ -1,6 +1,10 @@
 package sadrac.tijerina.quizapp
 
 object Constants {
+    val USER_NAME: String = "user_name"
+    val TOTAL_QUESTIONS: String = "total_questions"
+    val CORRECT_ANSWERS: String = "correct_answers"
+
 
     fun getQuestions():ArrayList<Question> {
         val questionList = ArrayList<Question>()
